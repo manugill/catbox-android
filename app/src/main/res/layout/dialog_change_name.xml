@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:paddingStart="10dp">
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:hint="New Name"
+        android:maxLength="100"
+        android:maxLines="1"
+        android:singleLine="true"/>
+    <Button
+        android:id="@+id/submitButton"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Done"
+        android:textStyle="bold" />
+
+</LinearLayout>

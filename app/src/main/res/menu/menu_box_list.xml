@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.flooat.catbox.BoxListActivity">
+
+    <item android:id="@+id/createBox" android:title="Create Box"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/changeAlias" android:title="Change Alias"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/logout" android:title="Logout"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
